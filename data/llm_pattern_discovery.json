@@ -1,0 +1,129 @@
+{
+  "llm_patterns": [
+    {
+      "id": "temporal_pattern_llm",
+      "name": "Temporal Pattern LLM",
+      "description": "Specialized in identifying time-based behavioral patterns in customer data",
+      "discovered_patterns": [
+        {
+          "id": "tuesday_evening_browsers",
+          "title": "Tuesday Evening Browsers",
+          "description": "Users who browse on Tuesday evenings (6-10pm) show distinct purchase patterns and product preferences",
+          "confidence_score": 92,
+          "impact_value": 28,
+          "evidence": "Analysis of 3,245 users across 1.48+ million events showed consistent Tuesday evening patterns",
+          "implementation": "Create Tuesday evening-specific promotions and content releases"
+        },
+        {
+          "id": "weekend_comparison_shoppers",
+          "title": "Weekend Comparison Shoppers",
+          "description": "Users who browse on weekends are 3.2x more likely to be comparison shopping across multiple sites",
+          "confidence_score": 89,
+          "impact_value": 24,
+          "evidence": "Analysis of 5,876 weekend browsers showed distinct comparison shopping patterns",
+          "implementation": "Deploy weekend-specific competitive comparison content and offers"
+        }
+      ]
+    },
+    {
+      "id": "emotional_analysis_llm",
+      "name": "Emotional Analysis LLM",
+      "description": "Focused on detecting emotional states from behavioral patterns",
+      "discovered_patterns": [
+        {
+          "id": "seasonal_color_preference",
+          "title": "Seasonal Color Preference Shifts",
+          "description": "User color preferences shift predictably with seasons, with specific emotional triggers",
+          "confidence_score": 87,
+          "impact_value": 26,
+          "evidence": "Analysis of product color selection patterns across 42,845 customers showed seasonal shifts",
+          "implementation": "Implement dynamic color schemes based on seasonal psychology"
+        },
+        {
+          "id": "post_payday_splurge",
+          "title": "Post-Payday Emotional Spending",
+          "description": "Users show distinct emotional spending patterns 1-3 days after typical paydays",
+          "confidence_score": 85,
+          "impact_value": 23,
+          "evidence": "Analysis of 7,654 users showed spending pattern shifts aligned with common paydays",
+          "implementation": "Create payday-aligned promotional strategies with emotional triggers"
+        }
+      ]
+    },
+    {
+      "id": "cross_platform_llm",
+      "name": "Cross-Platform LLM",
+      "description": "Specialized in connecting behaviors across different platforms and devices",
+      "discovered_patterns": [
+        {
+          "id": "cross_device_journey",
+          "title": "Cross-Device Purchase Journey",
+          "description": "Users who research on mobile but purchase on desktop follow specific cross-device patterns",
+          "confidence_score": 94,
+          "impact_value": 29,
+          "evidence": "Analysis of 5,432 users showed consistent device-switching behavior before purchase",
+          "implementation": "Create seamless cross-device experiences with persistent carts"
+        },
+        {
+          "id": "email_to_social_path",
+          "title": "Email-to-Social Conversion Path",
+          "description": "Users who engage with email then visit via social media have 2.7x higher conversion rate",
+          "confidence_score": 88,
+          "impact_value": 27,
+          "evidence": "Analysis of 3,876 users across Klaviyo and Amplitude data showed this cross-platform pattern",
+          "implementation": "Create coordinated email and social media campaigns with consistent messaging"
+        }
+      ]
+    },
+    {
+      "id": "demographic_inference_llm",
+      "name": "Demographic Inference LLM",
+      "description": "Focused on identifying demographic patterns without explicit demographic data",
+      "discovered_patterns": [
+        {
+          "id": "style_evolution",
+          "title": "Style Evolution Pathway",
+          "description": "Users who gradually shift their style preferences over multiple sessions show high lifetime value potential",
+          "confidence_score": 91,
+          "impact_value": 33,
+          "evidence": "Analysis of 3,456 users showed progressive style journey patterns",
+          "implementation": "Create personalized style journey content and recommendations"
+        },
+        {
+          "id": "life_event_indicators",
+          "title": "Life Event Shopping Patterns",
+          "description": "Specific browsing patterns strongly indicate major life events (moving, new job, etc.)",
+          "confidence_score": 84,
+          "impact_value": 25,
+          "evidence": "Analysis of 2,987 users showed distinct shopping patterns preceding life events",
+          "implementation": "Deploy life event detection and relevant product recommendations"
+        }
+      ]
+    },
+    {
+      "id": "purchase_intent_llm",
+      "name": "Purchase Intent LLM",
+      "description": "Specialized in detecting subtle purchase intent signals in browsing behavior",
+      "discovered_patterns": [
+        {
+          "id": "image_zoom_intent",
+          "title": "Image Zoom Purchase Intent Signal",
+          "description": "Users who zoom on product images show specific purchase intent patterns that vary by product category",
+          "confidence_score": 93,
+          "impact_value": 25,
+          "evidence": "Analysis of 9,876 users with image zoom behavior showed strong purchase intent correlation",
+          "implementation": "Deploy zoom-triggered detail expansions and recommendations"
+        },
+        {
+          "id": "payment_hesitation",
+          "title": "Payment Method Hesitation Pattern",
+          "description": "Users who hesitate at payment method selection show specific concerns that can be addressed",
+          "confidence_score": 90,
+          "impact_value": 31,
+          "evidence": "Analysis of 6,543 users showed distinct hesitation patterns at payment selection",
+          "implementation": "Create dynamic payment method presentations with tailored messaging"
+        }
+      ]
+    }
+  ]
+}

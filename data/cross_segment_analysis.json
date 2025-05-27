@@ -1,0 +1,136 @@
+{
+  "cross_segments": [
+    {
+      "id": "high_engagement_purchaser",
+      "title": "High Engagement Purchasers",
+      "segments": ["high_session_engagement", "purchase_completion"],
+      "impactValue": 42,
+      "description": "Users who show high engagement patterns and complete purchases represent the highest value customer segment.",
+      "recommendations": 5,
+      "details": "Combined analysis of 14,456 high-engagement users and 1,984 purchasers reveals powerful optimization opportunities.",
+      "evidence": "42% higher lifetime value when both patterns are optimized together rather than separately.",
+      "implementation": "Create specialized journeys for high-engagement users that fast-track them to purchase completion."
+    },
+    {
+      "id": "nocturnal_emotional",
+      "title": "Nocturnal Emotional Shoppers",
+      "segments": ["nocturnal_browsing", "emotional_resonance"],
+      "impactValue": 39,
+      "description": "Late-night shoppers with strong emotional engagement patterns show unique purchase behaviors.",
+      "recommendations": 4,
+      "details": "Cross-analysis of nocturnal browsing patterns and emotional state indicators across the full dataset.",
+      "evidence": "39% higher conversion rate when emotional content is optimized for nocturnal browsing sessions.",
+      "implementation": "Deploy night-mode emotional resonance content that addresses specific late-night psychological states."
+    },
+    {
+      "id": "trust_barrier_cart",
+      "title": "Trust Barrier Cart Abandoners",
+      "segments": ["policy_triggered_abandonment", "cart_abandonment"],
+      "impactValue": 36,
+      "description": "Users who abandon carts after encountering trust barriers require specialized recovery approaches.",
+      "recommendations": 5,
+      "details": "Combined analysis of policy-triggered abandonment and cart abandonment patterns across all data sources.",
+      "evidence": "36% recovery rate when trust-specific recovery sequences are deployed versus standard approaches.",
+      "implementation": "Create trust-focused recovery sequences that address specific policy concerns identified in abandonment patterns."
+    },
+    {
+      "id": "temporal_trust_sequence",
+      "title": "Temporal Trust Sequence",
+      "segments": ["abandoned_cart_temporal", "review_reading_trust"],
+      "impactValue": 41,
+      "description": "Users who abandon carts but return to read reviews follow a specific trust-building temporal pattern.",
+      "recommendations": 4,
+      "details": "Multi-LLM analysis of temporal cart recovery windows combined with review reading behavior.",
+      "evidence": "41% higher recovery rate when review content is optimized for returning cart abandoners.",
+      "implementation": "Deploy time-sensitive review highlights in cart recovery communications."
+    },
+    {
+      "id": "style_evolution_social",
+      "title": "Style Evolution with Social Proof",
+      "segments": ["style_evolution", "social_proof_threshold"],
+      "impactValue": 38,
+      "description": "Users on style evolution journeys require specific social proof thresholds at each evolution stage.",
+      "recommendations": 4,
+      "details": "Combined analysis of style evolution pathways and social proof threshold effects.",
+      "evidence": "38% higher progression through style evolution stages when social proof is calibrated to each stage.",
+      "implementation": "Create stage-specific social proof presentations that evolve with the customer's style journey."
+    },
+    {
+      "id": "cross_device_category_hopper",
+      "title": "Cross-Device Category Explorers",
+      "segments": ["cross_device_journey", "category_hopping"],
+      "impactValue": 37,
+      "description": "Users who explore multiple categories across different devices show unique purchase patterns.",
+      "recommendations": 4,
+      "details": "Multi-LLM analysis of device-switching behavior combined with category exploration patterns.",
+      "evidence": "37% higher average order value when cross-device category exploration is optimized.",
+      "implementation": "Create device-aware category exploration paths that maintain context across devices."
+    },
+    {
+      "id": "tuesday_payment_hesitation",
+      "title": "Tuesday Evening Payment Hesitators",
+      "segments": ["tuesday_evening_browsers", "payment_hesitation"],
+      "impactValue": 33,
+      "description": "Tuesday evening shoppers show specific payment hesitation patterns that can be addressed.",
+      "recommendations": 4,
+      "details": "Combined analysis of Tuesday evening browsing patterns and payment hesitation behaviors.",
+      "evidence": "33% reduction in checkout abandonment when Tuesday-specific payment reassurance is provided.",
+      "implementation": "Deploy day-of-week aware payment method presentations with tailored messaging."
+    },
+    {
+      "id": "emotional_color_preference",
+      "title": "Emotional Color Preference Patterns",
+      "segments": ["emotional_resonance", "seasonal_color_preference"],
+      "impactValue": 35,
+      "description": "User emotional states strongly correlate with seasonal color preferences in product selection.",
+      "recommendations": 4,
+      "details": "Multi-LLM analysis of emotional state indicators combined with seasonal color preference patterns.",
+      "evidence": "35% higher engagement when product presentation colors are matched to emotional state and season.",
+      "implementation": "Create dynamic color schemes based on detected emotional states and seasonal factors."
+    },
+    {
+      "id": "loyalty_image_detail",
+      "title": "Loyalty-Building Detail Seekers",
+      "segments": ["return_browser_loyalty", "image_zoom_intent"],
+      "impactValue": 32,
+      "description": "Repeat visitors who zoom on product images show specific loyalty-building opportunities.",
+      "recommendations": 4,
+      "details": "Combined analysis of return browser patterns and image zoom behaviors.",
+      "evidence": "32% higher conversion rate when returning visitors are provided enhanced product details after zoom interactions.",
+      "implementation": "Create progressive detail revelation for returning visitors based on their previous zoom behaviors."
+    },
+    {
+      "id": "competitive_email_engagement",
+      "title": "Competitive Defense Email Patterns",
+      "segments": ["competitive_defense", "email_engagement"],
+      "impactValue": 34,
+      "description": "Users showing competitive comparison behavior respond to specific email engagement patterns.",
+      "recommendations": 4,
+      "details": "Multi-LLM analysis of competitive defense indicators combined with email engagement micro-patterns.",
+      "evidence": "34% higher retention when competitive comparison shoppers receive optimized email sequences.",
+      "implementation": "Deploy competitor-aware email sequences with timing and content optimized for comparison shoppers."
+    },
+    {
+      "id": "multi_product_policy_anxiety",
+      "title": "Multi-Product Policy Concerns",
+      "segments": ["multi_product_engagement", "policy_page_anxiety"],
+      "impactValue": 29,
+      "description": "Users who view multiple products and then check policy pages show specific conversion barriers.",
+      "recommendations": 4,
+      "details": "Combined analysis of multi-product viewing patterns and subsequent policy page anxiety indicators.",
+      "evidence": "29% higher conversion when policy concerns are proactively addressed for multi-product browsers.",
+      "implementation": "Create category-specific policy highlights that address common concerns for multi-product shoppers."
+    },
+    {
+      "id": "vip_cross_segment",
+      "title": "VIP Program Qualification Patterns",
+      "segments": ["high_session_engagement", "purchase_completion", "return_browser_loyalty"],
+      "impactValue": 45,
+      "description": "Users who qualify for VIP program tiers show specific cross-segment behavior patterns.",
+      "recommendations": 5,
+      "details": "Multi-LLM analysis of behaviors that predict successful VIP program participation.",
+      "evidence": "45% higher program enrollment when VIP targeting is based on cross-segment behavior patterns.",
+      "implementation": "Create behavior-based VIP tier qualification paths that recognize valuable cross-segment patterns."
+    }
+  ]
+}

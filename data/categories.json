@@ -1,0 +1,60 @@
+{
+  "categories": [
+    {
+      "id": "temporal",
+      "name": "Temporal",
+      "description": "Time-based patterns that reveal when customers are most likely to engage and convert",
+      "color": "#4285F4",
+      "segments": ["abandoned_cart_temporal", "nocturnal_browsing", "tuesday_evening_browsers"]
+    },
+    {
+      "id": "emotional",
+      "name": "Emotional",
+      "description": "Psychological states and emotional triggers that influence purchase decisions",
+      "color": "#DB4437",
+      "segments": ["emotional_resonance", "seasonal_color_preference"]
+    },
+    {
+      "id": "behavioral",
+      "name": "Behavioral",
+      "description": "Action sequences and interaction patterns that indicate specific customer intentions",
+      "color": "#F4B400",
+      "segments": ["email_engagement", "competitive_defense", "category_hopping", "image_zoom_intent"]
+    },
+    {
+      "id": "cross_platform",
+      "name": "Cross-platform",
+      "description": "Multi-channel behaviors that span different devices and touchpoints",
+      "color": "#0F9D58",
+      "segments": ["cross_device_journey"]
+    },
+    {
+      "id": "demographic",
+      "name": "Demographic",
+      "description": "Identity-based patterns that reveal customer characteristics and preferences",
+      "color": "#9C27B0",
+      "segments": ["style_evolution"]
+    },
+    {
+      "id": "conversion",
+      "name": "Conversion",
+      "description": "Purchase-focused patterns that directly impact revenue generation",
+      "color": "#FF6D00",
+      "segments": ["cart_abandonment", "purchase_completion", "payment_hesitation"]
+    },
+    {
+      "id": "trust",
+      "name": "Trust",
+      "description": "Confidence barriers and reassurance patterns that influence purchase decisions",
+      "color": "#00ACC1",
+      "segments": ["policy_page_anxiety", "policy_triggered_abandonment", "review_reading_trust", "social_proof_threshold"]
+    },
+    {
+      "id": "engagement",
+      "name": "Engagement",
+      "description": "Interaction depth and loyalty indicators that reveal customer commitment",
+      "color": "#AB47BC",
+      "segments": ["multi_product_engagement", "high_session_engagement", "return_browser_loyalty"]
+    }
+  ]
+}

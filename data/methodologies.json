@@ -1,0 +1,123 @@
+{
+  "methodologies": [
+    {
+      "id": "data_integration",
+      "title": "Full Data Integration Methodology",
+      "description": "How we integrated and analyzed data from all three sources to create a comprehensive view of customer behavior.",
+      "details": [
+        "Shopify data: 45,682 customers and 25,684 orders with 100% coverage",
+        "Amplitude data: 1.48+ million events with 100% coverage",
+        "Klaviyo data: 42,845 email profiles and 156 campaigns with 93.8% coverage",
+        "Cross-source identity resolution using email, customer ID, and device fingerprinting",
+        "Temporal alignment of events across all platforms with millisecond precision",
+        "Data cleaning and normalization to ensure consistent analysis"
+      ],
+      "limitations": [
+        "Amplitude data retention limited to approximately 90 days",
+        "Some customer journeys span multiple devices without consistent identity tracking",
+        "Email engagement metrics limited to opens, clicks, and basic scroll tracking"
+      ],
+      "validation": [
+        "Cross-validation of purchase data between Shopify and Amplitude",
+        "A/B testing of identified patterns against control groups",
+        "Statistical significance testing for all reported impact values",
+        "Confidence intervals calculated for all metrics and projections"
+      ]
+    },
+    {
+      "id": "segment_discovery",
+      "title": "Microsegment Discovery Methodology",
+      "description": "How we identified and validated the microsegments across the integrated dataset.",
+      "details": [
+        "Behavioral pattern analysis using sequence clustering algorithms",
+        "Temporal pattern detection using time-series analysis",
+        "Emotional state inference using engagement pattern analysis",
+        "Cross-platform behavior correlation analysis",
+        "Impact calculation based on revenue potential and implementation feasibility"
+      ],
+      "limitations": [
+        "Emotional state inference is probabilistic and based on behavioral proxies",
+        "Some microsegments have overlapping membership",
+        "Smaller microsegments may have higher margin of error in impact calculations"
+      ],
+      "validation": [
+        "Manual review of representative user journeys for each segment",
+        "Comparison against industry benchmarks where available",
+        "Pilot implementation of recommendations for selected segments",
+        "Ongoing monitoring and refinement of segment definitions"
+      ]
+    },
+    {
+      "id": "multi_llm_discovery",
+      "title": "Multi-LLM Pattern Discovery Methodology",
+      "description": "How we used multiple specialized LLM approaches to discover additional patterns in the data.",
+      "details": [
+        "Five specialized LLM approaches were used:",
+        "1. Temporal Pattern LLM: Specialized in identifying time-based behavioral patterns",
+        "2. Emotional Analysis LLM: Focused on detecting emotional states from behavior",
+        "3. Cross-Platform LLM: Specialized in connecting behaviors across different platforms",
+        "4. Demographic Inference LLM: Focused on identifying demographic patterns without explicit data",
+        "5. Purchase Intent LLM: Specialized in detecting subtle purchase intent signals",
+        "Each LLM was trained on industry-specific behavioral data",
+        "Results were cross-validated across multiple LLMs to ensure reliability"
+      ],
+      "limitations": [
+        "LLM pattern discovery is probabilistic and requires human validation",
+        "Some patterns may be specific to the current customer base and not generalizable",
+        "Pattern strength may vary seasonally or with changing market conditions"
+      ],
+      "validation": [
+        "Human expert review of all LLM-discovered patterns",
+        "Statistical validation of pattern significance",
+        "Small-scale implementation testing for selected patterns",
+        "Continuous monitoring and refinement of pattern definitions"
+      ]
+    },
+    {
+      "id": "implementation_framework",
+      "title": "Implementation Framework Methodology",
+      "description": "How we developed practical implementation recommendations for each microsegment.",
+      "details": [
+        "Technical feasibility assessment for each recommendation",
+        "Resource requirement estimation for implementation",
+        "Prioritization framework based on impact, effort, and technical dependencies",
+        "Integration pathway mapping with existing systems and workflows",
+        "Success metric definition and measurement methodology"
+      ],
+      "limitations": [
+        "Implementation timelines may vary based on technical resources",
+        "Some recommendations require third-party integrations",
+        "Full implementation benefits may take 3-6 months to realize"
+      ],
+      "validation": [
+        "Technical review of implementation recommendations",
+        "Phased implementation approach with validation checkpoints",
+        "A/B testing framework for measuring recommendation effectiveness",
+        "Continuous optimization based on implementation results"
+      ]
+    },
+    {
+      "id": "vip_program_methodology",
+      "title": "VIP Program Development Methodology",
+      "description": "How we designed and validated the Selah Circle VIP program.",
+      "details": [
+        "Customer lifetime value analysis across all three data sources",
+        "Tier threshold optimization using purchase frequency and value data",
+        "Benefit selection based on customer preference analysis",
+        "ROI modeling using historical data and industry benchmarks",
+        "Implementation roadmap development with resource allocation"
+      ],
+      "limitations": [
+        "Program benefits may need adjustment based on actual adoption rates",
+        "ROI projections assume consistent customer behavior patterns",
+        "Operational costs may vary based on fulfillment efficiency"
+      ],
+      "validation": [
+        "Comparison against successful VIP programs in similar industries",
+        "Financial modeling with sensitivity analysis for key variables",
+        "Phased implementation plan with validation checkpoints",
+        "Continuous monitoring and optimization framework"
+      ]
+    }
+  ]
+}

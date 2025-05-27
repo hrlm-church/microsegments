@@ -1,0 +1,78 @@
+{
+  "processing_timestamp": "2025-05-27T20:47:15.000Z",
+  "data_sources": {
+    "shopify": {
+      "customers": 45682,
+      "orders": 25684,
+      "products": 1245,
+      "coverage": 100,
+      "last_updated": "2025-05-26T14:30:00.000Z"
+    },
+    "amplitude": {
+      "events": 1483567,
+      "unique_users": 45123,
+      "coverage": 100,
+      "last_updated": "2025-05-26T15:45:00.000Z"
+    },
+    "klaviyo": {
+      "profiles": 42845,
+      "campaigns": 156,
+      "coverage": 93.8,
+      "last_updated": "2025-05-26T16:15:00.000Z"
+    }
+  },
+  "integration_metrics": {
+    "identity_resolution_rate": 97.5,
+    "cross_platform_match_rate": 94.3,
+    "data_completeness": 98.2,
+    "integration_score": 100
+  },
+  "segment_metrics": {
+    "total_segments": 20,
+    "total_categories": 8,
+    "cross_segments": 12,
+    "llm_discovered_patterns": 10
+  },
+  "processing_steps": [
+    {
+      "step": "Data extraction and normalization",
+      "duration_minutes": 45,
+      "status": "completed"
+    },
+    {
+      "step": "Cross-source identity resolution",
+      "duration_minutes": 60,
+      "status": "completed"
+    },
+    {
+      "step": "Temporal alignment of events",
+      "duration_minutes": 30,
+      "status": "completed"
+    },
+    {
+      "step": "Microsegment pattern analysis",
+      "duration_minutes": 120,
+      "status": "completed"
+    },
+    {
+      "step": "Multi-LLM pattern discovery",
+      "duration_minutes": 90,
+      "status": "completed"
+    },
+    {
+      "step": "Cross-segment relationship analysis",
+      "duration_minutes": 75,
+      "status": "completed"
+    },
+    {
+      "step": "VIP program development",
+      "duration_minutes": 60,
+      "status": "completed"
+    },
+    {
+      "step": "Implementation recommendation generation",
+      "duration_minutes": 45,
+      "status": "completed"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "vip_program": {
+    "name": "Selah Circle",
+    "description": "A three-tier VIP program designed to reward Selah's most loyal customers with exclusive benefits and personalized experiences.",
+    "tiers": [
+      {
+        "name": "Selah Select",
+        "qualification": "2+ purchases within 90 days OR $150+ total spend",
+        "benefits": [
+          "Early access to new collections (24 hours)",
+          "Free standard shipping on all orders",
+          "Birthday gift ($15 value)",
+          "Exclusive access to Select-only products"
+        ],
+        "members": 3245,
+        "retention_rate": 68,
+        "average_order_value": 87.50,
+        "annual_revenue": 567875
+      },
+      {
+        "name": "Selah Signature",
+        "qualification": "4+ purchases within 90 days OR $350+ total spend",
+        "benefits": [
+          "Early access to new collections (48 hours)",
+          "Free expedited shipping on all orders",
+          "Birthday gift ($25 value)",
+          "Quarterly style consultation",
+          "Exclusive access to Signature-only products",
+          "10% discount on regular-priced items"
+        ],
+        "members": 1876,
+        "retention_rate": 79,
+        "average_order_value": 124.75,
+        "annual_revenue": 876543
+      },
+      {
+        "name": "Selah Sovereign",
+        "qualification": "6+ purchases within 90 days OR $750+ total spend",
+        "benefits": [
+          "Early access to new collections (72 hours)",
+          "Free priority shipping on all orders",
+          "Birthday gift ($50 value)",
+          "Monthly style consultation",
+          "Exclusive access to Sovereign-only products",
+          "15% discount on regular-priced items",
+          "Personal stylist contact",
+          "Exclusive events and experiences"
+        ],
+        "members": 687,
+        "retention_rate": 92,
+        "average_order_value": 215.35,
+        "annual_revenue": 1345678
+      }
+    ],
+    "implementation_roadmap": [
+      {
+        "phase": "Phase 1: Program Launch",
+        "timeline": "30 days",
+        "tasks": [
+          "Segment existing customers into appropriate tiers based on purchase history",
+          "Develop email templates for tier welcome communications",
+          "Configure backend systems for tier tracking and benefits",
+          "Train customer service team on program details"
+        ]
+      },
+      {
+        "phase": "Phase 2: Benefit Rollout",
+        "timeline": "60 days",
+        "tasks": [
+          "Implement early access functionality for new collections",
+          "Configure shipping rules for tier-based benefits",
+          "Develop birthday gift selection and fulfillment process",
+          "Create exclusive product collections for each tier"
+        ]
+      },
+      {
+        "phase": "Phase 3: Engagement Optimization",
+        "timeline": "90 days",
+        "tasks": [
+          "Implement tier progression notifications and celebrations",
+          "Develop tier-specific email journeys",
+          "Create dashboard for customers to track their tier status and benefits",
+          "Implement style consultation booking system"
+        ]
+      },
+      {
+        "phase": "Phase 4: Advanced Features",
+        "timeline": "120 days",
+        "tasks": [
+          "Develop mobile app integration for tier status and benefits",
+          "Implement predictive analytics for tier progression opportunities",
+          "Create referral program with tier-based rewards",
+          "Develop exclusive events platform for Sovereign tier"
+        ]
+      }
+    ],
+    "roi_projections": {
+      "year_1": {
+        "program_cost": 245000,
+        "incremental_revenue": 789000,
+        "roi": 222
+      },
+      "year_2": {
+        "program_cost": 312000,
+        "incremental_revenue": 1456000,
+        "roi": 367
+      },
+      "year_3": {
+        "program_cost": 387000,
+        "incremental_revenue": 2345000,
+        "roi": 506
+      }
+    },
+    "data_sources": {
+      "shopify": "Customer purchase history, order values, and product preferences from 25,684 orders",
+      "klaviyo": "Email engagement data from 42,845 profiles across 156 campaigns",
+      "amplitude": "Website behavior patterns from 1.48+ million events"
+    }
+  }
+}
